@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C
+# USB-PD-Breakout-rescue_C-Device
 #
-DEF Device_C C 0 10 N Y 1 F N
+DEF USB-PD-Breakout-rescue_C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
+F1 "USB-PD-Breakout-rescue_C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -16,160 +16,6 @@ P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 50 50 1 1 P
 X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Jason_Custom_Home_FUSB302MPX
-#
-DEF Jason_Custom_Home_FUSB302MPX U 0 40 Y Y 1 F N
-F0 "U" -300 550 60 H V L CNN
-F1 "Jason_Custom_Home_FUSB302MPX" -300 450 60 H V L CNN
-F2 "" 350 400 60 H V C CNN
-F3 "" 350 400 60 H V C CNN
-DRAW
-S -300 -400 300 400 0 1 0 N
-X CC2 1 500 -250 200 L 50 50 1 1 B
-X CC1 10 500 -50 200 L 50 50 1 1 W
-X CC1 11 500 -150 200 L 50 50 1 1 B
-X VCONN 12 -500 250 200 R 50 50 1 1 W
-X VCONN 13 -500 150 200 R 50 50 1 1 W
-X CC2 14 500 -350 200 L 50 50 1 1 W
-X GND 15 -500 -350 200 R 50 50 1 1 W
-X VBUS 2 -500 350 200 R 50 50 1 1 W
-X VDD 3 -500 50 200 R 50 50 1 1 W
-X VDD 4 -500 -50 200 R 50 50 1 1 W
-X ~INT 5 500 150 200 L 50 50 1 1 C
-X SCL 6 500 250 200 L 50 50 1 1 I
-X SDA 7 500 350 200 L 50 50 1 1 C
-X GND 8 -500 -150 200 R 50 50 1 1 W
-X GND 9 -500 -250 200 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Jason_Custom_Home_MTHOLE
-#
-DEF Jason_Custom_Home_MTHOLE X 0 40 Y Y 1 F N
-F0 "X" 0 150 60 H V C CNN
-F1 "Jason_Custom_Home_MTHOLE" 0 250 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 0 100 0 1 0 N
-X ~ 1 0 -250 150 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Jason_Custom_Home_USB-C_Female
-#
-DEF Jason_Custom_Home_USB-C_Female J 0 40 Y Y 1 F N
-F0 "J" -150 1600 60 H V C CNN
-F1 "Jason_Custom_Home_USB-C_Female" 50 1450 60 H V C CNN
-F2 "" 1000 700 60 H V C CNN
-F3 "" 1000 700 60 H V C CNN
-DRAW
-S 400 -850 -400 650 0 1 0 f
-X GND A1 -600 600 200 R 50 50 1 1 P
-X SSRXn2 A10 -600 -300 200 R 50 50 1 1 P
-X SSRXp2 A11 -600 -400 200 R 50 50 1 1 P
-X GND A12 -600 -500 200 R 50 50 1 1 P
-X SSTXp1 A2 -600 500 200 R 50 50 1 1 P
-X SSTXn1 A3 -600 400 200 R 50 50 1 1 P
-X Vbus A4 -600 300 200 R 50 50 1 1 P
-X CC1 A5 -600 200 200 R 50 50 1 1 P
-X Dp1 A6 -600 100 200 R 50 50 1 1 P
-X Dn1 A7 -600 0 200 R 50 50 1 1 P
-X SBU1 A8 -600 -100 200 R 50 50 1 1 P
-X Vbus A9 -600 -200 200 R 50 50 1 1 P
-X GND B1 600 -500 200 L 50 50 1 1 P
-X SSRXn1 B10 600 400 200 L 50 50 1 1 P
-X SSRXp1 B11 600 500 200 L 50 50 1 1 P
-X GND B12 600 600 200 L 50 50 1 1 P
-X SSTXp2 B2 600 -400 200 L 50 50 1 1 P
-X SSTXn2 B3 600 -300 200 L 50 50 1 1 P
-X Vbus B4 600 -200 200 L 50 50 1 1 P
-X CC2 B5 600 -100 200 L 50 50 1 1 P
-X Dp2 B6 600 0 200 L 50 50 1 1 P
-X Dn2 B7 600 100 200 L 50 50 1 1 P
-X SBU2 B8 600 200 200 L 50 50 1 1 P
-X Vbus B9 600 300 200 L 50 50 1 1 P
-X SHIELD SHLD 600 -800 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Jason_Custom_Home_VBUS_A
-#
-DEF Jason_Custom_Home_VBUS_A #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Jason_Custom_Home_VBUS_A" 0 140 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VBUS_A 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Jason_Custom_Home_VBUS_C
-#
-DEF Jason_Custom_Home_VBUS_C #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Jason_Custom_Home_VBUS_C" 0 140 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VBUS_C 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Jason_Custom_Home_VCONN
-#
-DEF Jason_Custom_Home_VCONN #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Jason_Custom_Home_VCONN" 0 140 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VCONN 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Jason_Custom_Home_V_PULLUP
-#
-DEF Jason_Custom_Home_V_PULLUP #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Jason_Custom_Home_V_PULLUP" 0 140 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X V_PULLUP 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -204,37 +50,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB-PD-Breakout-rescue_USB_OTG-RESCUE-USB-PD-Breakout
+# USB-PD-Breakout-rescue_Conn_01x08_Male-conn
 #
-DEF USB-PD-Breakout-rescue_USB_OTG-RESCUE-USB-PD-Breakout P 0 40 Y Y 1 F N
-F0 "P" 325 -125 50 H V C CNN
-F1 "USB-PD-Breakout-rescue_USB_OTG-RESCUE-USB-PD-Breakout" 0 200 50 H V C CNN
-F2 "" -50 -100 50 V V C CNN
-F3 "" -50 -100 50 V V C CNN
-$FPLIST
- USB*
-$ENDFPLIST
-DRAW
-S -250 -150 250 150 0 1 0 N
-S -205 -150 -195 -120 0 1 0 N
-S -105 -150 -95 -120 0 1 0 N
-S -5 -150 5 -120 0 1 0 N
-S 95 -150 105 -120 0 1 0 N
-S 195 -150 205 -120 0 1 0 N
-X VCC 1 -200 -300 150 U 50 50 1 1 w
-X D- 2 -100 -300 150 U 50 50 1 1 P
-X D+ 3 0 -300 150 U 50 50 1 1 P
-X ID 4 100 -300 150 U 50 50 1 1 W
-X GND 5 200 -300 150 U 50 50 1 1 W
-X shield 6 400 100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# conn_Conn_01x08_Male
-#
-DEF conn_Conn_01x08_Male J 0 40 Y N 1 F N
+DEF USB-PD-Breakout-rescue_Conn_01x08_Male-conn J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "conn_Conn_01x08_Male" 0 -500 50 H V C CNN
+F1 "USB-PD-Breakout-rescue_Conn_01x08_Male-conn" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -271,24 +91,38 @@ X Pin_8 8 200 -400 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn_TEST_1P
+# USB-PD-Breakout-rescue_FUSB302MPX-Jason_Custom_Home
 #
-DEF conn_TEST_1P J 0 30 N N 1 F N
-F0 "J" 0 270 50 H V C CNN
-F1 "conn_TEST_1P" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
+DEF USB-PD-Breakout-rescue_FUSB302MPX-Jason_Custom_Home U 0 40 Y Y 1 F N
+F0 "U" -300 550 60 H V L CNN
+F1 "USB-PD-Breakout-rescue_FUSB302MPX-Jason_Custom_Home" -300 450 60 H V L CNN
+F2 "" 350 400 60 H V C CNN
+F3 "" 350 400 60 H V C CNN
 DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
+S -300 -400 300 400 0 1 0 N
+X CC2 1 500 -250 200 L 50 50 1 1 B
+X CC1 10 500 -50 200 L 50 50 1 1 W
+X CC1 11 500 -150 200 L 50 50 1 1 B
+X VCONN 12 -500 250 200 R 50 50 1 1 W
+X VCONN 13 -500 150 200 R 50 50 1 1 W
+X CC2 14 500 -350 200 L 50 50 1 1 W
+X GND 15 -500 -350 200 R 50 50 1 1 W
+X VBUS 2 -500 350 200 R 50 50 1 1 W
+X VDD 3 -500 50 200 R 50 50 1 1 W
+X VDD 4 -500 -50 200 R 50 50 1 1 W
+X ~INT 5 500 150 200 L 50 50 1 1 C
+X SCL 6 500 250 200 L 50 50 1 1 I
+X SDA 7 500 350 200 L 50 50 1 1 C
+X GND 8 -500 -150 200 R 50 50 1 1 W
+X GND 9 -500 -250 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# USB-PD-Breakout-rescue_GND-power
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF USB-PD-Breakout-rescue_GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "USB-PD-Breakout-rescue_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -297,17 +131,210 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_VDD
+# USB-PD-Breakout-rescue_MTHOLE-Jason_Custom_Home
 #
-DEF power_VDD #PWR 0 0 Y Y 1 F P
+DEF USB-PD-Breakout-rescue_MTHOLE-Jason_Custom_Home X 0 40 Y Y 1 F N
+F0 "X" 0 150 60 H V C CNN
+F1 "USB-PD-Breakout-rescue_MTHOLE-Jason_Custom_Home" 0 250 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 100 0 1 0 N
+X ~ 1 0 -250 150 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_R-Device
+#
+DEF USB-PD-Breakout-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "USB-PD-Breakout-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_TEST_1P-conn
+#
+DEF USB-PD-Breakout-rescue_TEST_1P-conn J 0 30 N N 1 F N
+F0 "J" 0 270 50 H V C CNN
+F1 "USB-PD-Breakout-rescue_TEST_1P-conn" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_USB-C_Female-Jason_Custom_Home
+#
+DEF USB-PD-Breakout-rescue_USB-C_Female-Jason_Custom_Home J 0 40 Y Y 1 F N
+F0 "J" -150 1600 60 H V C CNN
+F1 "USB-PD-Breakout-rescue_USB-C_Female-Jason_Custom_Home" 50 1450 60 H V C CNN
+F2 "" 1000 700 60 H V C CNN
+F3 "" 1000 700 60 H V C CNN
+DRAW
+S 400 -850 -400 650 0 1 0 f
+X GND A1 -600 600 200 R 50 50 1 1 P
+X SSRXn2 A10 -600 -300 200 R 50 50 1 1 P
+X SSRXp2 A11 -600 -400 200 R 50 50 1 1 P
+X GND A12 -600 -500 200 R 50 50 1 1 P
+X SSTXp1 A2 -600 500 200 R 50 50 1 1 P
+X SSTXn1 A3 -600 400 200 R 50 50 1 1 P
+X Vbus A4 -600 300 200 R 50 50 1 1 P
+X CC1 A5 -600 200 200 R 50 50 1 1 P
+X Dp1 A6 -600 100 200 R 50 50 1 1 P
+X Dn1 A7 -600 0 200 R 50 50 1 1 P
+X SBU1 A8 -600 -100 200 R 50 50 1 1 P
+X Vbus A9 -600 -200 200 R 50 50 1 1 P
+X GND B1 600 -500 200 L 50 50 1 1 P
+X SSRXn1 B10 600 400 200 L 50 50 1 1 P
+X SSRXp1 B11 600 500 200 L 50 50 1 1 P
+X GND B12 600 600 200 L 50 50 1 1 P
+X SSTXp2 B2 600 -400 200 L 50 50 1 1 P
+X SSTXn2 B3 600 -300 200 L 50 50 1 1 P
+X Vbus B4 600 -200 200 L 50 50 1 1 P
+X CC2 B5 600 -100 200 L 50 50 1 1 P
+X Dp2 B6 600 0 200 L 50 50 1 1 P
+X Dn2 B7 600 100 200 L 50 50 1 1 P
+X SBU2 B8 600 200 200 L 50 50 1 1 P
+X Vbus B9 600 300 200 L 50 50 1 1 P
+X SHIELD SHLD 600 -800 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_USB_OTG-RESCUE-USB-PD-Breakout
+#
+DEF USB-PD-Breakout-rescue_USB_OTG-RESCUE-USB-PD-Breakout P 0 40 Y Y 1 F N
+F0 "P" 325 -125 50 H V C CNN
+F1 "USB-PD-Breakout-rescue_USB_OTG-RESCUE-USB-PD-Breakout" 0 200 50 H V C CNN
+F2 "" -50 -100 50 V V C CNN
+F3 "" -50 -100 50 V V C CNN
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+S -250 -150 250 150 0 1 0 N
+S -205 -150 -195 -120 0 1 0 N
+S -105 -150 -95 -120 0 1 0 N
+S -5 -150 5 -120 0 1 0 N
+S 95 -150 105 -120 0 1 0 N
+S 195 -150 205 -120 0 1 0 N
+X VCC 1 -200 -300 150 U 50 50 1 1 w
+X D- 2 -100 -300 150 U 50 50 1 1 P
+X D+ 3 0 -300 150 U 50 50 1 1 P
+X ID 4 100 -300 150 U 50 50 1 1 W
+X GND 5 200 -300 150 U 50 50 1 1 W
+X shield 6 400 100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_VBUS_A-Jason_Custom_Home
+#
+DEF USB-PD-Breakout-rescue_VBUS_A-Jason_Custom_Home #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VDD" 0 150 50 H V C CNN
+F1 "USB-PD-Breakout-rescue_VBUS_A-Jason_Custom_Home" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VBUS_A 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_VBUS_C-Jason_Custom_Home
+#
+DEF USB-PD-Breakout-rescue_VBUS_C-Jason_Custom_Home #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "USB-PD-Breakout-rescue_VBUS_C-Jason_Custom_Home" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VBUS_C 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_VCONN-Jason_Custom_Home
+#
+DEF USB-PD-Breakout-rescue_VCONN-Jason_Custom_Home #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "USB-PD-Breakout-rescue_VCONN-Jason_Custom_Home" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCONN 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_VDD-power
+#
+DEF USB-PD-Breakout-rescue_VDD-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "USB-PD-Breakout-rescue_VDD-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# USB-PD-Breakout-rescue_V_PULLUP-Jason_Custom_Home
+#
+DEF USB-PD-Breakout-rescue_V_PULLUP-Jason_Custom_Home #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "USB-PD-Breakout-rescue_V_PULLUP-Jason_Custom_Home" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X V_PULLUP 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_640456-3
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_640456-3 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_640456-3" 100 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" 200 200 60 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" 200 300 60 H I L CNN
+F4 "A19470-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "640456-3" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 3POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "TE Connectivity AMP Connectors" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 250 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+S 190 -45 210 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+X ~ 3 200 100 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

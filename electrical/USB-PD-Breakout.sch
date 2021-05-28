@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:USB-PD-Breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Jason_Custom_Home:USB-C_Female J1
+L USB-PD-Breakout-rescue:USB-C_Female-Jason_Custom_Home J1
 U 1 1 569DE3EA
 P 2900 2100
 F 0 "J1" H 2900 2950 60  0000 C CNN
@@ -30,7 +29,7 @@ F 7 "WM12856CT-ND" H 2900 2100 60  0001 C CNN "Supplier 1 Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L USB-PD-Breakout-rescue:R-Device R1
 U 1 1 569DEACE
 P 3950 4550
 F 0 "R1" V 4030 4550 50  0000 C CNN
@@ -58,7 +57,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 5000 4350 4700
 $Comp
-L Device:C C5
+L USB-PD-Breakout-rescue:C-Device C5
 U 1 1 569DEE45
 P 3950 5700
 F 0 "C5" H 3975 5800 50  0000 L CNN
@@ -73,7 +72,7 @@ F 7 "311-1078-1-ND" H 3950 5700 60  0001 C CNN "Supplier 1 Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L USB-PD-Breakout-rescue:C-Device C3
 U 1 1 569DEE97
 P 1950 5550
 F 0 "C3" H 1975 5650 50  0000 L CNN
@@ -85,7 +84,7 @@ F 4 "MF-CAP-0805-1uF" H 1950 5550 60  0001 C CNN "MacroFab Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L USB-PD-Breakout-rescue:C-Device C2
 U 1 1 569DEEC4
 P 1700 5550
 F 0 "C2" H 1725 5650 50  0000 L CNN
@@ -97,7 +96,7 @@ F 4 "MF-CAP-0603-0.1uF" H 1700 5550 60  0001 C CNN "MacroFab Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L USB-PD-Breakout-rescue:C-Device C1
 U 1 1 569DEEF3
 P 1450 5550
 F 0 "C1" H 1475 5650 50  0000 L CNN
@@ -109,7 +108,7 @@ F 4 "MF-CAP-1206-10uF" H 1450 5550 60  0001 C CNN "MacroFab Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L USB-PD-Breakout-rescue:GND-power #PWR01
 U 1 1 569DFA13
 P 2200 5800
 F 0 "#PWR01" H 2200 5550 50  0001 C CNN
@@ -135,7 +134,7 @@ USBC_CC1
 Text Label 4050 2200 0    60   ~ 0
 USBC_CC2
 $Comp
-L power:GND #PWR02
+L USB-PD-Breakout-rescue:GND-power #PWR02
 U 1 1 569E0E4A
 P 6200 2400
 F 0 "#PWR02" H 6200 2150 50  0001 C CNN
@@ -156,7 +155,7 @@ SCL
 Text Label 3700 5000 0    60   ~ 0
 ~INT
 $Comp
-L Device:C C6
+L USB-PD-Breakout-rescue:C-Device C6
 U 1 1 569E6069
 P 4250 5700
 F 0 "C6" H 4275 5800 50  0000 L CNN
@@ -171,7 +170,7 @@ F 7 "311-1078-1-ND" H 4250 5700 60  0001 C CNN "Supplier 1 Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L USB-PD-Breakout-rescue:R-Device R2
 U 1 1 569E63F6
 P 4150 4550
 F 0 "R2" V 4230 4550 50  0000 C CNN
@@ -187,7 +186,7 @@ F 8 "MF-RES-0603-4.7K" V 4150 4550 60  0001 C CNN "MacroFab Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L USB-PD-Breakout-rescue:R-Device R3
 U 1 1 569E6456
 P 4350 4550
 F 0 "R3" V 4430 4550 50  0000 C CNN
@@ -203,7 +202,7 @@ F 8 "MF-RES-0603-4.7K" V 4350 4550 60  0001 C CNN "MacroFab Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jason_Custom_Home:FUSB302MPX U1
+L USB-PD-Breakout-rescue:FUSB302MPX-Jason_Custom_Home U1
 U 1 1 569EFB49
 P 3150 5150
 F 0 "U1" H 2850 5700 60  0000 L CNN
@@ -236,7 +235,7 @@ Wire Wire Line
 	3650 5200 4250 5200
 Connection ~ 4250 5300
 $Comp
-L power:GND #PWR03
+L USB-PD-Breakout-rescue:GND-power #PWR03
 U 1 1 569F0E10
 P 2550 5600
 F 0 "#PWR03" H 2550 5350 50  0001 C CNN
@@ -254,7 +253,7 @@ Wire Wire Line
 	2650 5500 2550 5500
 Connection ~ 2550 5500
 $Comp
-L Device:C C4
+L USB-PD-Breakout-rescue:C-Device C4
 U 1 1 569E585B
 P 2200 5550
 F 0 "C4" H 2225 5650 50  0000 L CNN
@@ -268,7 +267,7 @@ $EndComp
 Wire Wire Line
 	2200 5700 1950 5700
 $Comp
-L power:GND #PWR04
+L USB-PD-Breakout-rescue:GND-power #PWR04
 U 1 1 569F10F5
 P 4100 5950
 F 0 "#PWR04" H 4100 5700 50  0001 C CNN
@@ -288,7 +287,7 @@ USB20_D+
 Text Label 5200 2000 0    60   ~ 0
 USB20_D-
 $Comp
-L Jason_Custom_Home:VCONN #PWR05
+L USB-PD-Breakout-rescue:VCONN-Jason_Custom_Home #PWR05
 U 1 1 5874BB0D
 P 1450 4650
 F 0 "#PWR05" H 1450 4500 50  0001 C CNN
@@ -299,7 +298,7 @@ F 3 "" H 1450 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L USB-PD-Breakout-rescue:GND-power #PWR07
 U 1 1 5874C587
 P 3600 3000
 F 0 "#PWR07" H 3600 2750 50  0001 C CNN
@@ -318,7 +317,7 @@ Wire Wire Line
 	3600 1500 3500 1500
 Connection ~ 3600 2600
 $Comp
-L power:GND #PWR08
+L USB-PD-Breakout-rescue:GND-power #PWR08
 U 1 1 5874CB7F
 P 2200 3000
 F 0 "#PWR08" H 2200 2750 50  0001 C CNN
@@ -372,7 +371,7 @@ Wire Wire Line
 Connection ~ 3800 2000
 Connection ~ 3900 2100
 $Comp
-L Jason_Custom_Home:VBUS_C #PWR09
+L USB-PD-Breakout-rescue:VBUS_C-Jason_Custom_Home #PWR09
 U 1 1 5874E062
 P 3700 1150
 F 0 "#PWR09" H 3700 1000 50  0001 C CNN
@@ -383,7 +382,7 @@ F 3 "" H 3700 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jason_Custom_Home:VBUS_C #PWR010
+L USB-PD-Breakout-rescue:VBUS_C-Jason_Custom_Home #PWR010
 U 1 1 5874E094
 P 2100 1150
 F 0 "#PWR010" H 2100 1000 50  0001 C CNN
@@ -394,7 +393,7 @@ F 3 "" H 2100 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jason_Custom_Home:VBUS_A #PWR011
+L USB-PD-Breakout-rescue:VBUS_A-Jason_Custom_Home #PWR011
 U 1 1 5874E0C6
 P 6200 1800
 F 0 "#PWR011" H 6200 1650 50  0001 C CNN
@@ -409,7 +408,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 1900 6200 1800
 $Comp
-L Jason_Custom_Home:VBUS_C #PWR012
+L USB-PD-Breakout-rescue:VBUS_C-Jason_Custom_Home #PWR012
 U 1 1 5874E966
 P 2550 4650
 F 0 "#PWR012" H 2550 4500 50  0001 C CNN
@@ -422,7 +421,7 @@ $EndComp
 Wire Wire Line
 	2550 4800 2550 4650
 $Comp
-L power:VDD #PWR013
+L USB-PD-Breakout-rescue:VDD-power #PWR013
 U 1 1 5874F55F
 P 1950 4650
 F 0 "#PWR013" H 1950 4500 50  0001 C CNN
@@ -454,12 +453,10 @@ Wire Wire Line
 	2300 1900 1350 1900
 NoConn ~ 2300 1600
 NoConn ~ 2300 1700
-NoConn ~ 2300 2200
 NoConn ~ 2300 2400
 NoConn ~ 2300 2500
 NoConn ~ 3500 2500
 NoConn ~ 3500 2400
-NoConn ~ 3500 1900
 NoConn ~ 3500 1700
 NoConn ~ 3500 1600
 $Comp
@@ -489,7 +486,7 @@ F 4 "MF-CON-2.54mm-2x3" H 7050 3750 60  0001 C CNN "MacroFab Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jason_Custom_Home:VBUS_C #PWR014
+L USB-PD-Breakout-rescue:VBUS_C-Jason_Custom_Home #PWR014
 U 1 1 5875394E
 P 6700 3450
 F 0 "#PWR014" H 6700 3300 50  0001 C CNN
@@ -507,7 +504,7 @@ Wire Wire Line
 	6700 3750 6800 3750
 Connection ~ 6700 3650
 $Comp
-L Jason_Custom_Home:VCONN #PWR015
+L USB-PD-Breakout-rescue:VCONN-Jason_Custom_Home #PWR015
 U 1 1 58753C55
 P 6350 3450
 F 0 "#PWR015" H 6350 3300 50  0001 C CNN
@@ -522,7 +519,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 3850 6800 3850
 $Comp
-L power:GND #PWR016
+L USB-PD-Breakout-rescue:GND-power #PWR016
 U 1 1 58753FDF
 P 7400 4050
 F 0 "#PWR016" H 7400 3800 50  0001 C CNN
@@ -543,7 +540,7 @@ Wire Wire Line
 	7400 3850 7300 3850
 Connection ~ 7400 3850
 $Comp
-L Jason_Custom_Home:V_PULLUP #PWR017
+L USB-PD-Breakout-rescue:V_PULLUP-Jason_Custom_Home #PWR017
 U 1 1 58754CF5
 P 3950 4150
 F 0 "#PWR017" H 3950 4000 50  0001 C CNN
@@ -573,7 +570,7 @@ Wire Wire Line
 	2550 5300 2650 5300
 Connection ~ 2550 5400
 $Comp
-L Jason_Custom_Home:MTHOLE X1
+L USB-PD-Breakout-rescue:MTHOLE-Jason_Custom_Home X1
 U 1 1 5875D825
 P 3100 6600
 F 0 "X1" H 3100 6750 60  0000 C CNN
@@ -584,7 +581,7 @@ F 3 "" H 3100 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jason_Custom_Home:MTHOLE X2
+L USB-PD-Breakout-rescue:MTHOLE-Jason_Custom_Home X2
 U 1 1 5875D8AC
 P 3500 6600
 F 0 "X2" H 3500 6750 60  0000 C CNN
@@ -595,7 +592,7 @@ F 3 "" H 3500 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR026
+L USB-PD-Breakout-rescue:GND-power #PWR026
 U 1 1 5875DAEE
 P 3500 7050
 F 0 "#PWR026" H 3500 6800 50  0001 C CNN
@@ -663,7 +660,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 6950 3500 6950
 $Comp
-L conn:Conn_01x08_Male J4
+L USB-PD-Breakout-rescue:Conn_01x08_Male-conn J4
 U 1 1 5CF3DEF9
 P 7550 5300
 F 0 "J4" H 7522 5274 50  0000 R CNN
@@ -674,7 +671,7 @@ F 3 "~" H 7550 5300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jason_Custom_Home:V_PULLUP #PWR029
+L USB-PD-Breakout-rescue:V_PULLUP-Jason_Custom_Home #PWR029
 U 1 1 5CF3E555
 P 6600 4850
 F 0 "#PWR029" H 6600 4700 50  0001 C CNN
@@ -685,7 +682,7 @@ F 3 "" H 6600 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR028
+L USB-PD-Breakout-rescue:VDD-power #PWR028
 U 1 1 5CF3EE0D
 P 6300 4850
 F 0 "#PWR028" H 6300 4700 50  0001 C CNN
@@ -702,7 +699,7 @@ SDA
 Text Label 6900 5500 0    60   ~ 0
 SCL
 $Comp
-L power:GND #PWR030
+L USB-PD-Breakout-rescue:GND-power #PWR030
 U 1 1 5CF3FC7E
 P 7250 5850
 F 0 "#PWR030" H 7250 5600 50  0001 C CNN
@@ -740,7 +737,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 5400 7350 5400
 $Comp
-L Jason_Custom_Home:VBUS_A #PWR027
+L USB-PD-Breakout-rescue:VBUS_A-Jason_Custom_Home #PWR027
 U 1 1 5CF3F493
 P 6950 4850
 F 0 "#PWR027" H 6950 4700 50  0001 C CNN
@@ -751,7 +748,7 @@ F 3 "" H 6950 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:TEST_1P TP1
+L USB-PD-Breakout-rescue:TEST_1P-conn TP1
 U 1 1 5CFC8FA4
 P 8300 2800
 F 0 "TP1" V 8300 3100 50  0000 C CNN
@@ -762,7 +759,7 @@ F 3 "" H 8500 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VDD #PWR06
+L USB-PD-Breakout-rescue:VDD-power #PWR06
 U 1 1 5CFCA516
 P 8400 2800
 F 0 "#PWR06" H 8400 2650 50  0001 C CNN
@@ -775,10 +772,10 @@ $EndComp
 Wire Wire Line
 	8300 2800 8400 2800
 $Comp
-L conn:TEST_1P TP?
+L USB-PD-Breakout-rescue:TEST_1P-conn TP2
 U 1 1 5CFD1701
 P 8300 2900
-F 0 "TP?" V 8300 3200 50  0000 C CNN
+F 0 "TP2" V 8300 3200 50  0000 C CNN
 F 1 "TEST_1P" V 8404 2972 50  0001 C CNN
 F 2 "Jason_Custom_Home:TP" H 8500 2900 50  0001 C CNN
 F 3 "" H 8500 2900 50  0001 C CNN
@@ -786,10 +783,10 @@ F 3 "" H 8500 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:TEST_1P TP?
+L USB-PD-Breakout-rescue:TEST_1P-conn TP3
 U 1 1 5CFD1926
 P 8300 3000
-F 0 "TP?" V 8300 3300 50  0000 C CNN
+F 0 "TP3" V 8300 3300 50  0000 C CNN
 F 1 "TEST_1P" V 8404 3072 50  0001 C CNN
 F 2 "Jason_Custom_Home:TP" H 8500 3000 50  0001 C CNN
 F 3 "" H 8500 3000 50  0001 C CNN
@@ -797,10 +794,10 @@ F 3 "" H 8500 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:TEST_1P TP?
+L USB-PD-Breakout-rescue:TEST_1P-conn TP4
 U 1 1 5CFD1A77
 P 8300 3100
-F 0 "TP?" V 8300 3400 50  0000 C CNN
+F 0 "TP4" V 8300 3400 50  0000 C CNN
 F 1 "TEST_1P" V 8404 3172 50  0001 C CNN
 F 2 "Jason_Custom_Home:TP" H 8500 3100 50  0001 C CNN
 F 3 "" H 8500 3100 50  0001 C CNN
@@ -808,10 +805,10 @@ F 3 "" H 8500 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:TEST_1P TP?
+L USB-PD-Breakout-rescue:TEST_1P-conn TP5
 U 1 1 5CFD1BDA
 P 8300 3200
-F 0 "TP?" V 8300 3500 50  0000 C CNN
+F 0 "TP5" V 8300 3500 50  0000 C CNN
 F 1 "TEST_1P" V 8404 3272 50  0001 C CNN
 F 2 "Jason_Custom_Home:TP" H 8500 3200 50  0001 C CNN
 F 3 "" H 8500 3200 50  0001 C CNN
@@ -819,10 +816,10 @@ F 3 "" H 8500 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jason_Custom_Home:V_PULLUP #PWR?
+L USB-PD-Breakout-rescue:V_PULLUP-Jason_Custom_Home #PWR0101
 U 1 1 5CFD1D18
 P 8400 2900
-F 0 "#PWR?" H 8400 2750 50  0001 C CNN
+F 0 "#PWR0101" H 8400 2750 50  0001 C CNN
 F 1 "V_PULLUP" V 8400 3200 50  0000 C CNN
 F 2 "" H 8400 2900 50  0000 C CNN
 F 3 "" H 8400 2900 50  0000 C CNN
@@ -830,10 +827,10 @@ F 3 "" H 8400 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jason_Custom_Home:VBUS_A #PWR?
+L USB-PD-Breakout-rescue:VBUS_A-Jason_Custom_Home #PWR0102
 U 1 1 5CFD2EB8
 P 8400 3000
-F 0 "#PWR?" H 8400 2850 50  0001 C CNN
+F 0 "#PWR0102" H 8400 2850 50  0001 C CNN
 F 1 "VBUS_A" V 8400 3250 50  0000 C CNN
 F 2 "" H 8400 3000 50  0000 C CNN
 F 3 "" H 8400 3000 50  0000 C CNN
@@ -841,10 +838,10 @@ F 3 "" H 8400 3000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jason_Custom_Home:VBUS_C #PWR?
+L USB-PD-Breakout-rescue:VBUS_C-Jason_Custom_Home #PWR0103
 U 1 1 5CFD3C27
 P 8400 3100
-F 0 "#PWR?" H 8400 2950 50  0001 C CNN
+F 0 "#PWR0103" H 8400 2950 50  0001 C CNN
 F 1 "VBUS_C" V 8400 3350 50  0000 C CNN
 F 2 "" H 8400 3100 50  0000 C CNN
 F 3 "" H 8400 3100 50  0000 C CNN
@@ -852,10 +849,10 @@ F 3 "" H 8400 3100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jason_Custom_Home:VCONN #PWR?
+L USB-PD-Breakout-rescue:VCONN-Jason_Custom_Home #PWR0104
 U 1 1 5CFD471A
 P 8400 3200
-F 0 "#PWR?" H 8400 3050 50  0001 C CNN
+F 0 "#PWR0104" H 8400 3050 50  0001 C CNN
 F 1 "VCONN" V 8400 3450 50  0000 C CNN
 F 2 "" H 8400 3200 50  0000 C CNN
 F 3 "" H 8400 3200 50  0000 C CNN
@@ -863,10 +860,10 @@ F 3 "" H 8400 3200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:TEST_1P TP?
+L USB-PD-Breakout-rescue:TEST_1P-conn TP9
 U 1 1 5CFD51AB
 P 8300 3700
-F 0 "TP?" V 8300 4000 50  0000 C CNN
+F 0 "TP9" V 8300 4000 50  0000 C CNN
 F 1 "TEST_1P" V 8404 3772 50  0001 C CNN
 F 2 "Jason_Custom_Home:TP" H 8500 3700 50  0001 C CNN
 F 3 "" H 8500 3700 50  0001 C CNN
@@ -874,10 +871,10 @@ F 3 "" H 8500 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:TEST_1P TP?
+L USB-PD-Breakout-rescue:TEST_1P-conn TP6
 U 1 1 5CFD53FD
 P 8300 3400
-F 0 "TP?" V 8300 3700 50  0000 C CNN
+F 0 "TP6" V 8300 3700 50  0000 C CNN
 F 1 "TEST_1P" V 8404 3472 50  0001 C CNN
 F 2 "Jason_Custom_Home:TP" H 8500 3400 50  0001 C CNN
 F 3 "" H 8500 3400 50  0001 C CNN
@@ -885,10 +882,10 @@ F 3 "" H 8500 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:TEST_1P TP?
+L USB-PD-Breakout-rescue:TEST_1P-conn TP7
 U 1 1 5CFD5524
 P 8300 3500
-F 0 "TP?" V 8300 3800 50  0000 C CNN
+F 0 "TP7" V 8300 3800 50  0000 C CNN
 F 1 "TEST_1P" V 8404 3572 50  0001 C CNN
 F 2 "Jason_Custom_Home:TP" H 8500 3500 50  0001 C CNN
 F 3 "" H 8500 3500 50  0001 C CNN
@@ -896,10 +893,10 @@ F 3 "" H 8500 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:TEST_1P TP?
+L USB-PD-Breakout-rescue:TEST_1P-conn TP8
 U 1 1 5CFD5671
 P 8300 3600
-F 0 "TP?" V 8300 3900 50  0000 C CNN
+F 0 "TP8" V 8300 3900 50  0000 C CNN
 F 1 "TEST_1P" V 8404 3672 50  0001 C CNN
 F 2 "Jason_Custom_Home:TP" H 8500 3600 50  0001 C CNN
 F 3 "" H 8500 3600 50  0001 C CNN
@@ -913,10 +910,10 @@ SCL
 Text Label 8400 3600 0    60   ~ 0
 SDA
 $Comp
-L power:GND #PWR?
+L USB-PD-Breakout-rescue:GND-power #PWR0105
 U 1 1 5CFD5DF9
 P 8400 3800
-F 0 "#PWR?" H 8400 3550 50  0001 C CNN
+F 0 "#PWR0105" H 8400 3550 50  0001 C CNN
 F 1 "GND" H 8400 3650 50  0000 C CNN
 F 2 "" H 8400 3800 50  0000 C CNN
 F 3 "" H 8400 3800 50  0000 C CNN
@@ -941,4 +938,50 @@ Wire Wire Line
 	8300 3000 8400 3000
 Wire Wire Line
 	8400 2900 8300 2900
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:640456-3 J5
+U 1 1 60B0561D
+P 4550 3050
+F 0 "J5" H 4828 3104 50  0000 L CNN
+F 1 "640456-3" H 4828 3013 50  0000 L CNN
+F 2 "digikey-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 4750 3250 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 4750 3350 60  0001 L CNN
+F 4 "A19470-ND" H 4750 3450 60  0001 L CNN "Digi-Key_PN"
+F 5 "640456-3" H 4750 3550 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 4750 3650 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 4750 3750 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 4750 3850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/640456-3/A19470-ND/259010" H 4750 3950 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 3POS 2.54MM" H 4750 4050 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 4750 4150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4750 4250 60  0001 L CNN "Status"
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB-PD-Breakout-rescue:GND-power #PWR0106
+U 1 1 60B0B699
+P 4750 2950
+F 0 "#PWR0106" H 4750 2700 50  0001 C CNN
+F 1 "GND-power" H 4755 2777 50  0000 C CNN
+F 2 "" H 4750 2950 50  0001 C CNN
+F 3 "" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4800 2500
+Wire Wire Line
+	3500 1900 4650 1900
+Wire Wire Line
+	4650 1900 4650 2950
+Wire Wire Line
+	4550 2950 4000 2950
+Wire Wire Line
+	4000 2950 4000 3550
+Wire Wire Line
+	4000 3550 1800 3550
+Wire Wire Line
+	1800 3550 1800 2200
+Wire Wire Line
+	1800 2200 2300 2200
 $EndSCHEMATC
